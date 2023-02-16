@@ -1,0 +1,128 @@
+.attribution { 
+    font-size: .8rem; 
+    text-align: center;
+    padding-top: 1em; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+*  {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        scale: 50%;
+    }
+  }
+
+body {
+    font-family: 'Montserrat', 'Fraunces', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    min-width: 39em;
+    max-width: 39em;
+    background-image: url(../images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: .5em;
+    display: flex;
+    box-shadow: 0em .1em .5em rgba(0, 0, 0, 0.2);
+}
+
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-left: 50%;
+}
+
+.card-info {
+    padding: 2em;
+}
+
+.product {
+    font-size: .7rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.title {
+    font-size: 2.2rem;
+    line-height: 1em;
+    padding-top: .7em;
+    padding-right: 1em;
+    padding-bottom: .7em;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+
+.info {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5em;
+    font-size: 1rem;
+    padding-right: .95em;
+    padding-bottom: 1em;
+}
+
+.pricebox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.8em;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    padding-right: 1em;
+}
+
+.smallprice {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+
+
+.addtocart {
+    transition-duration: 0.4s;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1em 4em;
+    border-radius: .5em;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+}
+
+.addtocart:hover {
+    background-color: hsl(158, 50%, 20%);
+    color: white;
+    cursor: pointer;
+}
+
+.addtocart img {
+    padding-right: 0.2em;
+}
+
