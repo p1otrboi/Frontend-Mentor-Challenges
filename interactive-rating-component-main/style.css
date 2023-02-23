@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+.attribution { 
+    font-size: 1.1rem; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
