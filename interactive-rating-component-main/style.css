@@ -9,6 +9,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
 }
 
 
@@ -22,7 +23,93 @@ body {
 }
 
 .container {
+    height: 94vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex-item {
+    max-width: 35rem;
+    padding: 3rem;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 3rem;
+}
+
+.flex-item h1 {
+    margin-top: 3rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.flex-item p {
+    margin-top: 1rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+.stars {
+    margin-top: 2.5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars button {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.stars .active {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.stars button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.star-top {
+    position: relative;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border-radius: 50%;
+}
+.star-top img {
+    position: absolute;
+    top: 1.4rem;
+    left: 1.4rem;
+}
+
+.submit {
+    width: 100%;
+}
+
+.submit button {
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    margin-top: 2.5rem;
+    height: 4.5rem;
+    border-radius: 2.5rem;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
 }
