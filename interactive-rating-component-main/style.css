@@ -2,6 +2,12 @@
     margin: 0;
 }
 
+@media screen and (max-width: 992px) {
+    .flex-item {
+        scale: 90%;
+    }
+  }
+
 html {
     font-size: 62.5%;
 }
@@ -23,7 +29,7 @@ body {
 }
 
 .container {
-    height: 94vw;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +112,7 @@ body {
     border-radius: 2.5rem;
     border: 0;
     cursor: pointer;
-    transition: .3s;
+    transition: .2s;
 }
 
 .submit button:hover {
